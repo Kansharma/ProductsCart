@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ProductCatalog>
+  <Product ID="111" Item="Monitor" DisplayName="Lenevo LED Monitor" Price="500" Currency="USD" Type="0">
+  </Product>
+  <Product ID="2" Item="Mouse" DisplayName="Magic Mouse" Price="300" Currency="USD" Type="0">
+  </Product>
+  <Product ID="3" Item="KeyBoard" DisplayName="Logitec keyboard" Price="200" Currency="USD" Type="0">
+  </Product>
+  <Product ID="4" Item="PC" DisplayName="Desktop" Price="200" Currency="USD" Type="1" >
+    <options ProductId="111"></options>
+    <options ProductId="2"></options>
+    <options ProductId="3"></options>
+  </Product>
+</ProductCatalog>
